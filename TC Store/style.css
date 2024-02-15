@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+header {
+    background-color: #212121;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 300px;
+}
+
+.navigation a{
+    color:#ffff;
+    text-decoration: none;
+    margin-right: 59;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #ffb861;
+
+}
+
+section {
+    padding: 100px 100px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/wtrp.jpg);    
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.تسجيل{
+  color: black;
+  font-size: 20px;  
+  display: block;
+    text-decoration: none;
+    background-color:#eeeeee;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 69px;
+    transition: .5s;
+}
+
+.تسجيل:hover{
+    background-color: #ffb861;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#preloader{
+    background: #fcfcfc url(images/loding.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
